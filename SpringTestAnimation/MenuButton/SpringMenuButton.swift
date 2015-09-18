@@ -123,7 +123,7 @@ class SpringMenuButton: UIButton {
     func addButtons() {
         // Adding a sinle button
         for i in 0..<numberOfButtons {
-            var movableButton = MovableButton(frame: CGRectMake(frame.origin.x - 113.0, frame.origin.y + 68.0, frame.width, frame.height))
+            var movableButton = MovableButton(frame: frame)
             movableButton.tag = i
             movableButton.backgroundColor = buttonColor
             movableButton.setPositionParameter(CGFloat(i + 1) * 0.0, dy: CGFloat(i + 1) * -frame.height * 1.25)

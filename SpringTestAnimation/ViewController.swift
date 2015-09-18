@@ -10,12 +10,16 @@ import UIKit
 
 class ViewController: UIViewController, SpringMenuButtonDelegate {
 
-    
-    @IBOutlet weak var springMenuButton: SpringMenuButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        springMenuButton.numberOfButtons = 4
-        springMenuButton.delegateVC = self
+        
+        var buttonWidth: CGFloat = 60
+        var screenSize = UIScreen.mainScreen().bounds
+        var newButton = SpringMenuButton(frame: CGRectMake((screenSize.width - buttonWidth)/2, screenSize.height - buttonWidth * 1.5,
+                                            buttonWidth, buttonWidth))
+        self.view.addSubview(newButton)
+        newButton.numberOfButtons = 3
+        newButton.delegateVC = self
     }
 
     override func viewWillAppear(animated: Bool) {
