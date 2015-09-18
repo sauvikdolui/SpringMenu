@@ -5,6 +5,7 @@ A simple collapsable menu using Spring Animation inspired by https://dribbble.co
 
 ### Usages
 
+
 ```swift
         var newButton = SpringMenuButton(frame: CGRectMake(20.0, 250.0, 88.0, 88.0))
         self.view.addSubview(newButton)
