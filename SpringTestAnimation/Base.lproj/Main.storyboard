@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="shJ-z5-8GN">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Q6F-ER-Qmc">
+            <objects>
+                <viewController id="shJ-z5-8GN" customClass="ViewController" customModule="SpringTestAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="veO-PK-UmG"/>
+                        <viewControllerLayoutGuide type="bottom" id="IIH-Rz-HEL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sAX-if-5Cz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dI-9R-sY8" customClass="SpringMenuButton" customModule="SpringTestAnimation" customModuleProvider="target">
+                                <rect key="frame" x="263" y="486" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="2dZ-Jx-ZPP"/>
+                                    <constraint firstAttribute="width" constant="64" id="a3E-zC-uW9"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27843137254901962" green="0.043137254901960784" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="8dI-9R-sY8" secondAttribute="centerX" constant="5" id="C27-Wp-90v"/>
+                            <constraint firstItem="IIH-Rz-HEL" firstAttribute="top" secondItem="8dI-9R-sY8" secondAttribute="bottom" constant="50" id="rjQ-Fy-bCi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="springMenuButton" destination="8dI-9R-sY8" id="w4T-Eb-CNl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5V9-ti-JFE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23" y="226"/>
+        </scene>
+    </scenes>
+</document>
