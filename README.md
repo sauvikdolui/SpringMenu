@@ -1,2 +1,0 @@
-# SpringMenu
-Collapsable Spring Menu
