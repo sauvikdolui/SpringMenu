@@ -37,6 +37,5 @@ extension ViewController: SpringMenuButtonDelegate{
     func didTapOnButton(sender: UIButton, atIndex: Int) {
         println("Button tapped -> \(atIndex)")
     }
-    
 }
 
