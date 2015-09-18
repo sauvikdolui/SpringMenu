@@ -2,6 +2,7 @@
 Collapsable Spring Menu
 
 A simple collapsable menu using Spring Animation inspired by https://dribbble.com/shots/2232906-Spring-Menu-Made-with-Principle.
+![Spring Menu](https://raw.githubusercontent.com/sauvikatinnofied/SpringMenu/master/ezgif.com-crop.gif)
 
 ### Usages
 
