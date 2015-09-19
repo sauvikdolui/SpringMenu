@@ -25,3 +25,8 @@ extension ViewController: SpringMenuButtonDelegate{
     }
 }
 ```
+
+
+## TODO:
+* Scale down animation while the movable buttons are coming down.
+* Adding *visual effects* on the view controller on tap on **Menu Button**.
